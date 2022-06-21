@@ -41,7 +41,6 @@ const FeaturedPost = () => {
         <div className="w-1/2 p-6">
           <p className="text-neutral-400 mb-1">{post.created_At}</p>
           <Link to={"/post/" + post.id}>
-            {post.title}
             <h1 className="mb-4 hover:underline underline-offset-10 ">
               {post.title}
             </h1>
