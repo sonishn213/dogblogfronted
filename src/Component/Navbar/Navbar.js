@@ -28,14 +28,14 @@ const Navbar = () => {
           >
             All Posts
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="uploadpost"
             className={({ isActive }) =>
               isActive ? activeClassName : NormalClassName
             }
           >
             upload post
-          </NavLink>
+          </NavLink> */}
         </div>
       </nav>
     </section>

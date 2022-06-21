@@ -21,9 +21,9 @@ const Routing = () => {
         </Route>
       </Route>
 
-      <Route path="uploadpost" element={<Layout2 />}>
+      {/* <Route path="uploadpost" element={<Layout2 />}>
         <Route index element={<UploadPost />} />
-      </Route>
+      </Route> */}
     </Routes>
   );
 };
